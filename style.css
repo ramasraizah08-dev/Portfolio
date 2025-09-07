@@ -29,7 +29,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #000;
+  background: #7a9f79;
   color: #fff;
   padding: 20px 30px;
   height: 80px;
@@ -91,7 +91,7 @@ nav h1 {
 .hero a {
   display: inline-block;
   padding: 12px 24px;
-  background: #0077ff;
+  background: black;
   color: #fff;
   border-radius: 30px;
   font-weight: bold;
@@ -199,7 +199,7 @@ nav h1 {
 .skill-box h3 { 
   font-size: 26px; 
   margin-bottom: 15px; 
-  color: black; 
+  color: white
 }
 .skill-box ul { 
   list-style: square; 
@@ -209,7 +209,7 @@ nav h1 {
 .skill-box li { 
   margin: 10px 0; 
   font-size: 20px; 
-  color: #333; 
+  color: white;
 }
 
 /* Projects */
@@ -224,7 +224,7 @@ nav h1 {
 }
 .category-title { 
   font-size: 1.8rem; 
-  color: darkblue; 
+  color: black;
   margin: 30px 0 20px; 
 }
 .projects-row {
@@ -243,16 +243,14 @@ nav h1 {
 }
 .project-box h4 { 
   font-size: 1.1rem; 
-  color: #444; 
+  color: white; 
 }
 
 /* Contact */
 .contact {
   padding: 40px;
-  background: #f9f9f9;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   max-width: 600px;
   margin: 40px auto;
 }
