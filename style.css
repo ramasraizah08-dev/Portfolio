@@ -96,7 +96,7 @@ nav h1 {
   border-radius: 30px;
   font-weight: bold;
   text-decoration: none;
-  transition: background 0.3s;
+  transition:  0.3s;
 }
 .hero a:hover { 
   background: #005fcc; 
@@ -104,38 +104,61 @@ nav h1 {
 
 /* About */
 .about-me {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 80px auto;
   padding: 20px;
-  text-align: center;
 }
+
+.about-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1;
+}
+
 .about-me h2 { 
-  font-size: 30px; 
+  font-size: 34px;   
   margin-bottom: 15px; 
 }
 .about-me h3 { 
-  font-size: 28px; 
+  font-size: 30px;   
   margin-bottom: 15px; 
   color: #7a9f79; 
 }
 .about-me p { 
-  font-size: 18px; 
-  color: #444; 
-  margin-bottom: 20px; 
+  font-size: 20px;   
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.7;  
 }
+
 .about-me a {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 14px 28px;  
   background: #000;
   color: #fff;
   border-radius: 30px;
   font-weight: bold;
+  font-size: 16px;   
   text-decoration: none;
-  transition: background .3s;
+  transition: 0.3s;
+  margin-right: 10px;
 }
 .about-me a:hover { 
   background: #0077ff; 
 }
+
+.about-image img {
+  width: 300px;  
+  border-radius: 12px;
+}
+
+
+
 
 /* Gallery */
 .gallery { 
@@ -194,7 +217,7 @@ nav h1 {
   transition: transform .3s, box-shadow .3s;
 }
 .skill-box:hover { 
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
 }
 .skill-box h3 { 
   font-size: 26px; 
